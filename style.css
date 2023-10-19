@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo img{
+    width: 100px;
+}
+
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: sticky;
+   top: 0;
+   cursor: pointer;  
+}
+
+.body{
+    color: aqua;
+    background-color: antiquewhite;
+}
+
+
+
+.background{
+    background: rgb(0, 0, 0, 0.7) url(images/background\ copy.jpeg);
+    background-size: cover;
+
+}
+
+
+.nav-list{
+   width: 50%;
+   display: flex;
+   align-items: center;
+   padding: 10px;
+}
+
+.nav-list li{
+   list-style: none;
+    padding: 26px 35px;
+    font-size: 17px;
+}
+
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-list li a:hover{
+    color: red;
+}
+
+.rightNav{
+    text-align: right;
+    width: 50%;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 6px;
+    font-size: 15px;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.btn-sm{
+    padding: 6px 11px;
+    border: 1px solid red;
+    background: none;
+    color: white;
+    border-radius: 3px;
+    vertical-align: middle;
+
+}
+
+.btn-sm:hover{
+    padding: 6px 11px;
+    border: 1px solid red;
+    background: red;
+    color: white;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.firstSection{
+    height: 70vh;
+    color: white;
+}
+
+.secondHalf img{
+    width: 400px;
+    border: 1px solid red;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    max-width: 50%;
+    height: 80%;
+}
+
+.firstHalf{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondHalf img{
+    width: 350px;
+}
+
+.text-big{
+   font-size: 38px;
+   margin-bottom: 5px;
+
+}
+
+.text-small{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.text-small1{
+    color: rgb(114, 114, 114);
+}
+
+.btns{
+    padding: 8px 20px;
+    border: 2px solid white;
+    border-radius: 3px;
+    background: none;
+    color: white;
+    margin: 7px 3px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 17px;
+
+}
+
+.btns:hover{
+    background-color: red;
+    border-radius: 2px;
+    border: red;
+    border: 2px solid red;
+}
+
+.Background{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.section{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.section-Left{
+   flex-direction: row-reverse;
+}
+
+
+.imgFluid{
+    width: 300px;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sectionTag{
+    padding: 10px 0;
+
+}
+
+
+.section{
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 400px;
+}
+.paras{
+    padding: 0px 26px;
+}
+
+.contact{
+    background-color: rgb(191, 1, 1);
+    height: 700px;
+}
+
+
+.text-center{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+
+.form{
+    max-width: 1200px;
+    margin: 25px auto;
+}
+
+.form-input{
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid red;
+    border-radius: 6px;
+    margin: 7px 0;
+    padding: 5px 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-dark{
+    
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 12px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+}
+.btn-dark:hover{
+    background-color: red;
+    border: 2px solid red;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.footer-1{
+    padding-top: 10px 5;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    padding-bottom: 40px;
+}
+
+
+
+.text-footer{
+    display: flex;   
+    justify-content: center;
+    padding-top: 40px;
+}
